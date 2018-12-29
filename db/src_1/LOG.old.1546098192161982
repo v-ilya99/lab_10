@@ -1,0 +1,300 @@
+2018/12/29-18:38:11.152797 17a4 RocksDB version: 5.15.10
+2018/12/29-18:38:11.153866 17a4 Git sha rocksdb_build_git_sha:@0@
+2018/12/29-18:38:11.153920 17a4 Compile date Dec 28 2018
+2018/12/29-18:38:11.153957 17a4 DB SUMMARY
+2018/12/29-18:38:11.154822 17a4 CURRENT file:  CURRENT
+2018/12/29-18:38:11.154887 17a4 IDENTITY file:  IDENTITY
+2018/12/29-18:38:11.155252 17a4 MANIFEST file:  MANIFEST-000010 size: 236 Bytes
+2018/12/29-18:38:11.155367 17a4 SST files in D:\work\lab_10\db\src_1 dir, Total Num: 0, files: 
+2018/12/29-18:38:11.155411 17a4 Write Ahead Log file in D:\work\lab_10\db\src_1: 000011.log size: 230 ; 
+2018/12/29-18:38:11.155517 17a4                         Options.error_if_exists: 0
+2018/12/29-18:38:11.155554 17a4                       Options.create_if_missing: 1
+2018/12/29-18:38:11.156171 17a4                         Options.paranoid_checks: 1
+2018/12/29-18:38:11.156242 17a4                                     Options.env: 00000255433BEE00
+2018/12/29-18:38:11.156269 17a4                                Options.info_log: 00000255433BB9F0
+2018/12/29-18:38:11.156287 17a4                Options.max_file_opening_threads: 16
+2018/12/29-18:38:11.156301 17a4                              Options.statistics: 0000000000000000
+2018/12/29-18:38:11.156329 17a4                               Options.use_fsync: 0
+2018/12/29-18:38:11.156341 17a4                       Options.max_log_file_size: 0
+2018/12/29-18:38:11.156353 17a4                  Options.max_manifest_file_size: 1073741824
+2018/12/29-18:38:11.156365 17a4                   Options.log_file_time_to_roll: 0
+2018/12/29-18:38:11.156377 17a4                       Options.keep_log_file_num: 1000
+2018/12/29-18:38:11.156389 17a4                    Options.recycle_log_file_num: 0
+2018/12/29-18:38:11.156401 17a4                         Options.allow_fallocate: 1
+2018/12/29-18:38:11.156413 17a4                        Options.allow_mmap_reads: 0
+2018/12/29-18:38:11.156425 17a4                       Options.allow_mmap_writes: 0
+2018/12/29-18:38:11.156437 17a4                        Options.use_direct_reads: 0
+2018/12/29-18:38:11.156449 17a4                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/12/29-18:38:11.156481 17a4          Options.create_missing_column_families: 0
+2018/12/29-18:38:11.156496 17a4                              Options.db_log_dir: 
+2018/12/29-18:38:11.156513 17a4                                 Options.wal_dir: D:\work\lab_10\db\src_1
+2018/12/29-18:38:11.156528 17a4                Options.table_cache_numshardbits: 6
+2018/12/29-18:38:11.156558 17a4                      Options.max_subcompactions: 1
+2018/12/29-18:38:11.156591 17a4                  Options.max_background_flushes: -1
+2018/12/29-18:38:11.156639 17a4                         Options.WAL_ttl_seconds: 0
+2018/12/29-18:38:11.156653 17a4                       Options.WAL_size_limit_MB: 0
+2018/12/29-18:38:11.156667 17a4             Options.manifest_preallocation_size: 4194304
+2018/12/29-18:38:11.156695 17a4                     Options.is_fd_close_on_exec: 1
+2018/12/29-18:38:11.156707 17a4                   Options.advise_random_on_open: 1
+2018/12/29-18:38:11.156719 17a4                    Options.db_write_buffer_size: 0
+2018/12/29-18:38:11.156731 17a4                    Options.write_buffer_manager: 0000025543610060
+2018/12/29-18:38:11.156743 17a4         Options.access_hint_on_compaction_start: 1
+2018/12/29-18:38:11.156755 17a4  Options.new_table_reader_for_compaction_inputs: 0
+2018/12/29-18:38:11.156767 17a4           Options.random_access_max_buffer_size: 1048576
+2018/12/29-18:38:11.156779 17a4                      Options.use_adaptive_mutex: 0
+2018/12/29-18:38:11.156792 17a4                            Options.rate_limiter: 0000000000000000
+2018/12/29-18:38:11.156828 17a4     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/12/29-18:38:11.156865 17a4                       Options.wal_recovery_mode: 2
+2018/12/29-18:38:11.156902 17a4                  Options.enable_thread_tracking: 0
+2018/12/29-18:38:11.156916 17a4                  Options.enable_pipelined_write: 0
+2018/12/29-18:38:11.156943 17a4         Options.allow_concurrent_memtable_write: 1
+2018/12/29-18:38:11.156990 17a4      Options.enable_write_thread_adaptive_yield: 1
+2018/12/29-18:38:11.157008 17a4             Options.write_thread_max_yield_usec: 100
+2018/12/29-18:38:11.157021 17a4            Options.write_thread_slow_yield_usec: 3
+2018/12/29-18:38:11.157033 17a4                               Options.row_cache: None
+2018/12/29-18:38:11.157045 17a4                              Options.wal_filter: None
+2018/12/29-18:38:11.157057 17a4             Options.avoid_flush_during_recovery: 0
+2018/12/29-18:38:11.157094 17a4             Options.allow_ingest_behind: 0
+2018/12/29-18:38:11.157107 17a4             Options.preserve_deletes: 0
+2018/12/29-18:38:11.157134 17a4             Options.two_write_queues: 0
+2018/12/29-18:38:11.157148 17a4             Options.manual_wal_flush: 0
+2018/12/29-18:38:11.157193 17a4             Options.max_background_jobs: 2
+2018/12/29-18:38:11.157223 17a4             Options.max_background_compactions: -1
+2018/12/29-18:38:11.157253 17a4             Options.avoid_flush_during_shutdown: 0
+2018/12/29-18:38:11.157269 17a4           Options.writable_file_max_buffer_size: 1048576
+2018/12/29-18:38:11.157284 17a4             Options.delayed_write_rate : 16777216
+2018/12/29-18:38:11.157300 17a4             Options.max_total_wal_size: 0
+2018/12/29-18:38:11.157315 17a4             Options.delete_obsolete_files_period_micros: 21600000000
+2018/12/29-18:38:11.157331 17a4                   Options.stats_dump_period_sec: 600
+2018/12/29-18:38:11.157347 17a4                          Options.max_open_files: -1
+2018/12/29-18:38:11.157363 17a4                          Options.bytes_per_sync: 0
+2018/12/29-18:38:11.157378 17a4                      Options.wal_bytes_per_sync: 0
+2018/12/29-18:38:11.157393 17a4       Options.compaction_readahead_size: 0
+2018/12/29-18:38:11.157409 17a4 Compression algorithms supported:
+2018/12/29-18:38:11.157437 17a4 	kZSTD supported: 0
+2018/12/29-18:38:11.157456 17a4 	kSnappyCompression supported: 0
+2018/12/29-18:38:11.157479 17a4 	kBZip2Compression supported: 0
+2018/12/29-18:38:11.157495 17a4 	kZlibCompression supported: 1
+2018/12/29-18:38:11.157511 17a4 	kLZ4Compression supported: 0
+2018/12/29-18:38:11.157526 17a4 	kXpressCompression supported: 0
+2018/12/29-18:38:11.157541 17a4 	kLZ4HCCompression supported: 0
+2018/12/29-18:38:11.157556 17a4 	kZSTDNotFinalCompression supported: 0
+2018/12/29-18:38:11.157647 17a4 Fast CRC32 supported: Supported on x86
+2018/12/29-18:38:11.157714 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\db_impl_readonly.cc:23] Opening the db in read only mode
+2018/12/29-18:38:11.158635 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\version_set.cc:3248] Recovering from manifest file: MANIFEST-000010
+2018/12/29-18:38:11.159925 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\column_family.cc:475] --------------- Options for column family [default]:
+2018/12/29-18:38:11.160005 17a4               Options.comparator: leveldb.BytewiseComparator
+2018/12/29-18:38:11.160030 17a4           Options.merge_operator: None
+2018/12/29-18:38:11.160052 17a4        Options.compaction_filter: None
+2018/12/29-18:38:11.160074 17a4        Options.compaction_filter_factory: None
+2018/12/29-18:38:11.160100 17a4         Options.memtable_factory: SkipListFactory
+2018/12/29-18:38:11.160124 17a4            Options.table_factory: BlockBasedTable
+2018/12/29-18:38:11.160660 17a4            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002554367F3E0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000255432C6420
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2018/12/29-18:38:11.160778 17a4        Options.write_buffer_size: 67108864
+2018/12/29-18:38:11.160838 17a4  Options.max_write_buffer_number: 2
+2018/12/29-18:38:11.160874 17a4          Options.compression: NoCompression
+2018/12/29-18:38:11.161001 17a4                  Options.bottommost_compression: Disabled
+2018/12/29-18:38:11.161032 17a4       Options.prefix_extractor: nullptr
+2018/12/29-18:38:11.161055 17a4   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/12/29-18:38:11.161080 17a4             Options.num_levels: 7
+2018/12/29-18:38:11.161104 17a4        Options.min_write_buffer_number_to_merge: 1
+2018/12/29-18:38:11.161128 17a4     Options.max_write_buffer_number_to_maintain: 0
+2018/12/29-18:38:11.161151 17a4            Options.bottommost_compression_opts.window_bits: -14
+2018/12/29-18:38:11.161176 17a4                  Options.bottommost_compression_opts.level: 32767
+2018/12/29-18:38:11.161201 17a4               Options.bottommost_compression_opts.strategy: 0
+2018/12/29-18:38:11.161230 17a4         Options.bottommost_compression_opts.max_dict_bytes: 0
+2018/12/29-18:38:11.161279 17a4         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2018/12/29-18:38:11.161305 17a4                  Options.bottommost_compression_opts.enabled: false
+2018/12/29-18:38:11.161352 17a4            Options.compression_opts.window_bits: -14
+2018/12/29-18:38:11.161399 17a4                  Options.compression_opts.level: 32767
+2018/12/29-18:38:11.161441 17a4               Options.compression_opts.strategy: 0
+2018/12/29-18:38:11.161465 17a4         Options.compression_opts.max_dict_bytes: 0
+2018/12/29-18:38:11.161490 17a4         Options.compression_opts.zstd_max_train_bytes: 0
+2018/12/29-18:38:11.161515 17a4                  Options.compression_opts.enabled: false
+2018/12/29-18:38:11.161540 17a4      Options.level0_file_num_compaction_trigger: 4
+2018/12/29-18:38:11.161564 17a4          Options.level0_slowdown_writes_trigger: 20
+2018/12/29-18:38:11.161588 17a4              Options.level0_stop_writes_trigger: 36
+2018/12/29-18:38:11.161611 17a4                   Options.target_file_size_base: 67108864
+2018/12/29-18:38:11.161636 17a4             Options.target_file_size_multiplier: 1
+2018/12/29-18:38:11.161660 17a4                Options.max_bytes_for_level_base: 268435456
+2018/12/29-18:38:11.161684 17a4 Options.level_compaction_dynamic_level_bytes: 0
+2018/12/29-18:38:11.161708 17a4          Options.max_bytes_for_level_multiplier: 10.000000
+2018/12/29-18:38:11.161894 17a4 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/12/29-18:38:11.161946 17a4 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/12/29-18:38:11.161972 17a4 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/12/29-18:38:11.161997 17a4 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/12/29-18:38:11.162023 17a4 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/12/29-18:38:11.162048 17a4 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/12/29-18:38:11.162074 17a4 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/12/29-18:38:11.162099 17a4       Options.max_sequential_skip_in_iterations: 8
+2018/12/29-18:38:11.162123 17a4                    Options.max_compaction_bytes: 1677721600
+2018/12/29-18:38:11.162149 17a4                        Options.arena_block_size: 8388608
+2018/12/29-18:38:11.162173 17a4   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/12/29-18:38:11.162213 17a4   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/12/29-18:38:11.162267 17a4       Options.rate_limit_delay_max_milliseconds: 100
+2018/12/29-18:38:11.162294 17a4                Options.disable_auto_compactions: 0
+2018/12/29-18:38:11.162404 17a4                        Options.compaction_style: kCompactionStyleLevel
+2018/12/29-18:38:11.162452 17a4                          Options.compaction_pri: kByCompensatedSize
+2018/12/29-18:38:11.162483 17a4 Options.compaction_options_universal.size_ratio: 1
+2018/12/29-18:38:11.162507 17a4 Options.compaction_options_universal.min_merge_width: 2
+2018/12/29-18:38:11.162532 17a4 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/12/29-18:38:11.162556 17a4 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/12/29-18:38:11.162581 17a4 Options.compaction_options_universal.compression_size_percent: -1
+2018/12/29-18:38:11.162623 17a4 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/12/29-18:38:11.162649 17a4 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/12/29-18:38:11.162674 17a4 Options.compaction_options_fifo.allow_compaction: 0
+2018/12/29-18:38:11.162698 17a4 Options.compaction_options_fifo.ttl: 0
+2018/12/29-18:38:11.162724 17a4                   Options.table_properties_collectors: 
+2018/12/29-18:38:11.162772 17a4                   Options.inplace_update_support: 0
+2018/12/29-18:38:11.162792 17a4                 Options.inplace_update_num_locks: 10000
+2018/12/29-18:38:11.162832 17a4               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/12/29-18:38:11.162858 17a4   Options.memtable_huge_page_size: 0
+2018/12/29-18:38:11.162879 17a4                           Options.bloom_locality: 0
+2018/12/29-18:38:11.162900 17a4                    Options.max_successive_merges: 0
+2018/12/29-18:38:11.162920 17a4                Options.optimize_filters_for_hits: 0
+2018/12/29-18:38:11.162941 17a4                Options.paranoid_file_checks: 0
+2018/12/29-18:38:11.162978 17a4                Options.force_consistency_checks: 0
+2018/12/29-18:38:11.162999 17a4                Options.report_bg_io_stats: 0
+2018/12/29-18:38:11.163019 17a4                               Options.ttl: 0
+2018/12/29-18:38:11.164811 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\column_family.cc:475] --------------- Options for column family [new_cf2]:
+2018/12/29-18:38:11.164858 17a4               Options.comparator: leveldb.BytewiseComparator
+2018/12/29-18:38:11.164878 17a4           Options.merge_operator: None
+2018/12/29-18:38:11.164897 17a4        Options.compaction_filter: None
+2018/12/29-18:38:11.164915 17a4        Options.compaction_filter_factory: None
+2018/12/29-18:38:11.164933 17a4         Options.memtable_factory: SkipListFactory
+2018/12/29-18:38:11.164951 17a4            Options.table_factory: BlockBasedTable
+2018/12/29-18:38:11.165138 17a4            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002554367F3E0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000255432C6420
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2018/12/29-18:38:11.165166 17a4        Options.write_buffer_size: 67108864
+2018/12/29-18:38:11.165186 17a4  Options.max_write_buffer_number: 2
+2018/12/29-18:38:11.165211 17a4          Options.compression: NoCompression
+2018/12/29-18:38:11.165239 17a4                  Options.bottommost_compression: Disabled
+2018/12/29-18:38:11.165259 17a4       Options.prefix_extractor: nullptr
+2018/12/29-18:38:11.165280 17a4   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/12/29-18:38:11.165355 17a4             Options.num_levels: 7
+2018/12/29-18:38:11.165404 17a4        Options.min_write_buffer_number_to_merge: 1
+2018/12/29-18:38:11.165426 17a4     Options.max_write_buffer_number_to_maintain: 0
+2018/12/29-18:38:11.165447 17a4            Options.bottommost_compression_opts.window_bits: -14
+2018/12/29-18:38:11.165468 17a4                  Options.bottommost_compression_opts.level: 32767
+2018/12/29-18:38:11.165490 17a4               Options.bottommost_compression_opts.strategy: 0
+2018/12/29-18:38:11.165511 17a4         Options.bottommost_compression_opts.max_dict_bytes: 0
+2018/12/29-18:38:11.165533 17a4         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2018/12/29-18:38:11.165555 17a4                  Options.bottommost_compression_opts.enabled: false
+2018/12/29-18:38:11.165577 17a4            Options.compression_opts.window_bits: -14
+2018/12/29-18:38:11.165597 17a4                  Options.compression_opts.level: 32767
+2018/12/29-18:38:11.165618 17a4               Options.compression_opts.strategy: 0
+2018/12/29-18:38:11.165639 17a4         Options.compression_opts.max_dict_bytes: 0
+2018/12/29-18:38:11.165660 17a4         Options.compression_opts.zstd_max_train_bytes: 0
+2018/12/29-18:38:11.165681 17a4                  Options.compression_opts.enabled: false
+2018/12/29-18:38:11.165702 17a4      Options.level0_file_num_compaction_trigger: 4
+2018/12/29-18:38:11.165722 17a4          Options.level0_slowdown_writes_trigger: 20
+2018/12/29-18:38:11.165743 17a4              Options.level0_stop_writes_trigger: 36
+2018/12/29-18:38:11.165764 17a4                   Options.target_file_size_base: 67108864
+2018/12/29-18:38:11.165785 17a4             Options.target_file_size_multiplier: 1
+2018/12/29-18:38:11.165806 17a4                Options.max_bytes_for_level_base: 268435456
+2018/12/29-18:38:11.165827 17a4 Options.level_compaction_dynamic_level_bytes: 0
+2018/12/29-18:38:11.165847 17a4          Options.max_bytes_for_level_multiplier: 10.000000
+2018/12/29-18:38:11.165879 17a4 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/12/29-18:38:11.165901 17a4 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/12/29-18:38:11.165924 17a4 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/12/29-18:38:11.165946 17a4 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/12/29-18:38:11.165968 17a4 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/12/29-18:38:11.165989 17a4 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/12/29-18:38:11.166011 17a4 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/12/29-18:38:11.166033 17a4       Options.max_sequential_skip_in_iterations: 8
+2018/12/29-18:38:11.166054 17a4                    Options.max_compaction_bytes: 1677721600
+2018/12/29-18:38:11.166075 17a4                        Options.arena_block_size: 8388608
+2018/12/29-18:38:11.166096 17a4   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/12/29-18:38:11.166117 17a4   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/12/29-18:38:11.166137 17a4       Options.rate_limit_delay_max_milliseconds: 100
+2018/12/29-18:38:11.166159 17a4                Options.disable_auto_compactions: 0
+2018/12/29-18:38:11.166196 17a4                        Options.compaction_style: kCompactionStyleLevel
+2018/12/29-18:38:11.166237 17a4                          Options.compaction_pri: kByCompensatedSize
+2018/12/29-18:38:11.166260 17a4 Options.compaction_options_universal.size_ratio: 1
+2018/12/29-18:38:11.166296 17a4 Options.compaction_options_universal.min_merge_width: 2
+2018/12/29-18:38:11.166314 17a4 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/12/29-18:38:11.166333 17a4 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/12/29-18:38:11.166352 17a4 Options.compaction_options_universal.compression_size_percent: -1
+2018/12/29-18:38:11.166382 17a4 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/12/29-18:38:11.166403 17a4 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/12/29-18:38:11.166459 17a4 Options.compaction_options_fifo.allow_compaction: 0
+2018/12/29-18:38:11.166484 17a4 Options.compaction_options_fifo.ttl: 0
+2018/12/29-18:38:11.166507 17a4                   Options.table_properties_collectors: 
+2018/12/29-18:38:11.166527 17a4                   Options.inplace_update_support: 0
+2018/12/29-18:38:11.166546 17a4                 Options.inplace_update_num_locks: 10000
+2018/12/29-18:38:11.166564 17a4               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/12/29-18:38:11.166587 17a4   Options.memtable_huge_page_size: 0
+2018/12/29-18:38:11.166605 17a4                           Options.bloom_locality: 0
+2018/12/29-18:38:11.166623 17a4                    Options.max_successive_merges: 0
+2018/12/29-18:38:11.166641 17a4                Options.optimize_filters_for_hits: 0
+2018/12/29-18:38:11.166660 17a4                Options.paranoid_file_checks: 0
+2018/12/29-18:38:11.166678 17a4                Options.force_consistency_checks: 0
+2018/12/29-18:38:11.166695 17a4                Options.report_bg_io_stats: 0
+2018/12/29-18:38:11.166713 17a4                               Options.ttl: 0
+2018/12/29-18:38:11.172274 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\version_set.cc:3529] Recovered from manifest file:D:\work\lab_10\db\src_1/MANIFEST-000010 succeeded,manifest_file_number is 10, next_file_number is 15, last_sequence is 8, log_number is 0,prev_log_number is 0,max_column_family is 2,min_log_number_to_keep is 0
+2018/12/29-18:38:11.172439 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\version_set.cc:3537] Column family [default] (ID 0), log number is 4
+2018/12/29-18:38:11.172516 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\version_set.cc:3537] Column family [new_cf2] (ID 2), log number is 4
+2018/12/29-18:38:11.175467 17a4 EVENT_LOG_v1 {"time_micros": 1546097891174960, "job": 1, "event": "recovery_started", "log_files": [11]}
+2018/12/29-18:38:11.175572 17a4 [d:\distr\vcpkg\vcpkg\buildtrees\rocksdb\src\v5.15.10-2d53c7e6ef\db\db_impl_open.cc:552] Recovering log #11 mode 2
+2018/12/29-18:38:11.177403 17a4 EVENT_LOG_v1 {"time_micros": 1546097891177129, "job": 1, "event": "recovery_finished"}
